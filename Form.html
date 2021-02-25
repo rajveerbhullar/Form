@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registraion Form</title>
+    <link rel = "stylesheet"type="text/css"href="form.css">
+    <script type = "text/javascript" src = "form.js"></script>
+</head>
+<body>
+   
+   
+    <div class="sidhu" >
+        <h1> Student Registration Form</h1>
+        
+<form aciton ="/myaction.php" name="myForm" onsubmit="return validateForm()" method="post">
+        
+        <p>This form is a legal document. It must be completed in its entirety by a legal guardian or parent for 
+            student registering in a college. The information for each legal guardian, including custodial
+            parents, must be included on this form. The Declaration must be signed in front of college. Please bring (government
+            issued) photo identification. You may be asked to provide documentation confirming guardianship.</p>
+        <img src = "school.jpeg"class = "Raj">
+        <div class="formdesign" id="name">
+         Name: <input type="text" name="fname"placeholder=Name ><b><span class="formerror"> </span></b>
+        </div><br>
+<div class="formdesign" id = "faname">
+   Father Name: <input type="text" name = "fathername"placeholder=Fathername > <span class="formerror"> </span></b>
+</div><br>
+<div class="formdesign" id = "Date">
+    Birth Date<input type="text" name= "bDate" required placeholder="Birth Date"><span class="formerror"> </span></b>
+</div><br>
+<div class="formdesign" id = "code">
+    Postal code  <input type="text" name = "pcode" placeholder="Postalcode"> <span class="formerror"> </span></b>
+</div><br>
+<div class="formdesign" id = "add">
+    Personal Address <input type="text" name = "Address" placeholder="Address"> <span class="formerror"> </span></b>
+</div><br>
+<div class="formdesign" id = "gen">
+    Gender<input type="radio" name="Gender" value="Male" required> Male
+           <input type="radio" name="Gender" value="Female" required>Female
+</div><br>
+<div class="formdesign" id = "city">
+     City
+     <select city name="City" required>
+        <option value="Select">Select</option> 
+        <option value="Brampton">Brampton</option> 
+        <option value="Toronto">Toronto</option> 
+        <option value="Bolton">Bolton</option> 
+        <option value="Vancouver">Vancouver</option> 
+
+    </select>
+    
+</div><br>
+<div class="formdesign" id = "cour" >
+    Course
+    
+        <select Course = "Course"required>
+            <option value="Select">Select</option> 
+            <option value="Computer software">Computer software</option> 
+            <option value="BCA">BCA</option> 
+            <option value="Database design">Database design</option> 
+        </select>
+    
+    </div><br>
+ <div class="formdesign" id = "cour">
+     State
+    
+        <select state required>
+            <option value="Select">Select</option> 
+            <option value="Ontario">Ontario</option> 
+            <option value="Winnipeg">Winnipeg</option> 
+            <option value="Qubic">Qubic</option> 
+        </select>
+     
+    </div><br><br>
+Contact details <br><br>
+<div class="formdesign" id = "email">
+Email ID <input type="text" name ="Email" placeholder="Email"><span class="formerror" > </span></b></div><br>
+<div class="formdesign" id = "Phone">
+Mobile Number <input type="number" name = "Mobile"required placeholder="Mobile number" ><span class="formerror"> </span></b></div><br>
+<p>Privacy Policy</p>
+<p>Freedom of Information and Protection of Privacy
+    The personal information requested on this form is collected under the authority of Alberta’s Freedom of Information and Protection of
+    Privacy (FOIP) Act, the Education Act and its regulations, and the Canadian Charter of Rights and Freedoms, Section 23. This information
+    will be used for the maintenance of the student’s record, for a school board’s obligation to provide students with an education program that
+    meets their needs, to provide a safe and secure school environment and other purposes that relate directly to and are necessary for an
+    operating program or activity, including program placement, determination of eligibility and/or suitability for provincial or federal funding,
+    contact and health related information in the event of problems or emergencies. Personal information may also be provided to the Minister
+    of Education for the purpose of carrying out programs, activities, or policies under their administration (e.g., research, statistical analysis).
+    This information will be treated in accordance with the privacy protection provisions of the FOIP Act.
+    If you have any questions about this form please contact the school.</p>
+    <p>*Email</p>
+    <p>
+        Email address will be used to provide information such as student progress and important information feom college that relate to the Education.
+        canada new anti-spam legislation took effect on july 1,2021.CALS prohibits the sending of electronic message that is commercial in nature unless the recipient has provided consent first.
+    </p>
+<input type="reset">
+<input class="but" type="submit" value="Submit">
+
+
+</form>
+</div>
+    
+</body>
+</html>

@@ -1,0 +1,29 @@
+body{
+    margin: 0%;
+    padding:80px 30px ;
+    background-size:cover;
+    background-position: center;
+    font-family:sans-serif ;
+      
+}
+.sidhu{
+    height:1200px ;
+    width:800px ;
+    background: #3385ad;
+    color:rgb(240, 232, 232);
+    left: 50%;
+    top:90%;
+    position: absolute;
+    box-sizing: border-box;
+    transform: translate(-50%,-50%);
+    padding:80px 30px ;
+}
+.Raj{
+    height:100px ;
+    width: 100px;
+    position:absolute;
+    border-radius: 50%;
+    left:680px;
+    top: 30px;
+}
+
